@@ -7,7 +7,7 @@ from .models import myApi,skilModel,projectModel
 
 def main(request):
 	 
-    return HttpResponse("html")
+    return render(request,"home.html")
 
 from .serializers import myApiserializer,skillApiserializer,projectApiserializer
 
